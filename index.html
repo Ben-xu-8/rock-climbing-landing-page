@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rock Climbing Adventures</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(
+          180deg,
+          #1e5799,
+          #2989d8,
+          #207cca,
+          #7db9e8
+        ); /* Background gradient */
+        color: #fff;
+      }
+
+      header {
+        background-color: #333;
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      section {
+        padding: 20px;
+        margin: 20px;
+        background: rgba(
+          255,
+          255,
+          255,
+          0.8
+        ); /* Slightly transparent white background */
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        animation: fadeInUp 1s ease-in-out;
+      }
+
+      .location-reviews,
+      .about {
+        animation: fadeInUp 1s ease-in-out;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Styling for the image */
+      .image-container {
+        text-align: center;
+        margin: 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* New colors for text */
+      h2 {
+        color: #333;
+      }
+
+      p {
+        color: #555;
+      }
+
+      /* Additional animations for text */
+      h2,
+      p {
+        animation: fadeInUp 1s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Climbing Adventures</h1>
+    </header>
+    <!-- Image section -->
+    <div class="image-container">
+      <img
+        src="https://rockclimbingbucket.s3.amazonaws.com/rock.png"
+        alt="Rock Climbing Image"
+      />
+    </div>
+
+    <section class="location-reviews">
+      <h2>Location Reviews</h2>
+      <p>
+        Here, you can find reviews from fellow climbers about the best rock
+        climbing locations around the world. Whether you're a seasoned pro or a
+        beginner, our community's insights will guide you to the perfect spots
+        for your next adventure.
+      </p>
+    </section>
+    <section class="about">
+      <h2>About Us</h2>
+      <p>
+        We are passionate rock climbers who love to share our experiences and
+        knowledge with fellow enthusiasts. Our mission is to connect climbers
+        and provide valuable information on the most thrilling and challenging
+        climbing destinations.
+      </p>
+    </section>
+  </body>
+</html>
